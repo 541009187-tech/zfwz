@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "server",
+  "compilerOptions": {
+    "deleteOutDir": false,
+    "assets": [
+      { "include": "views/**/*", "outDir": "dist/server" },
+      { "include": "assets/**/*", "outDir": "dist/server" }
+    ]
+  }
+}
